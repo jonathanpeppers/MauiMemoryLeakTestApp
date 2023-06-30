@@ -8,6 +8,10 @@
                VerticalOptions="Center" />
         <Button x:Name="OpenTertiaryPageButton"
                 Clicked="OpenTertiaryPageButton_Clicked"
-                Text="Open page" />
+                Text="Open tertiary page" WidthRequest="200" />
+        <Button x:Name="GCCollectButton"
+                Clicked="GCCollectButton_Clicked"
+                Text="GC Collect"
+                WidthRequest="200"/>
     </VerticalStackLayout>
 </ContentPage>
